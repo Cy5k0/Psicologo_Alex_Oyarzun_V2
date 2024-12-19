@@ -46,7 +46,7 @@ footer a:hover {
   height: 80px;
   border-radius: 50%;
   background-color: white;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: #6c757d;
   transition: all 0.3s ease;
 }
@@ -54,7 +54,7 @@ footer a:hover {
 .social-link:hover {
   text-decoration: none;
   color: #007bff;
-  box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 .social-link i {
@@ -68,69 +68,96 @@ footer a:hover {
 }
 
 /* Uniqe colors for each platform */
-.instagram { color: #E1306C; }
-.facebook { color: #3b5998; }
-.spotify { color: #1DB954; }
-.youtube { color: #FF0000; }
-.tiktok { color: #000000; }
-.linkedin { color: #0435f9; }
+.instagram {
+  color: #e1306c;
+}
+.facebook {
+  color: #3b5998;
+}
+.spotify {
+  color: #1db954;
+}
+.youtube {
+  color: #ff0000;
+}
+.tiktok {
+  color: #000000;
+}
+.linkedin {
+  color: #0435f9;
+}
 
 /*************************************/
-.temas_interes{
+.temas_interes {
   border: 1px solid #007bff;
   width: 100%;
   max-width: 100%;
   margin: auto;
 }
-.tratamientos{
+.tratamientos {
   border: 1px solid #007bff;
   width: 100%;
   max-width: 100%;
   margin: auto;
 }
-.otros_servicios{
+.otros_servicios {
   border: 1px solid #007bff;
   width: 100%;
   max-width: 100%;
   margin: auto;
 }
-.autocuidado-section{
+.autocuidado-section {
   border: 1px solid #007bff;
   width: 100%;
   max-width: 100%;
   margin: auto;
 }
-.contacto-section{
+.contacto-section {
   border: 1px solid #007bff;
   width: 100%;
   max-width: 100%;
   margin: auto;
 }
 /*========================================================================*/
-
+/*QUIEN SOY*/
 #Texto_Quien_Soy {
-  background: rgba(
-    255,
-    255,
-    255,
-    0.6
-  ); 
+  background: rgba(255, 255, 255, 0.6);
   padding: 20px;
   border-radius: 10px;
   filter: drop-shadow(10px 20px 30px rgba(0, 0, 0, 0.3));
 }
 
+#Texto_Quien_Soy p {
+  line-height: 2;
+  text-align: justify;
+  text-align-last: left;
+  margin-bottom: 11px;
+  word-spacing: -0.3ch;
+}
+
 #img_quiensoy {
   filter: drop-shadow(10px 20px 30px rgba(0, 0, 0, 0.7));
+  width: 100%;
 }
 
 #img_carrousel_quiensoy {
   max-height: fit-content;
 }
+
+/* Agregar padding-top a la clase rrss-quien-soy */
+.rrss-quien-soy {
+  padding-top: 20px;
+}
+
+.rrss-quien-soy iframe {
+  border-radius: 12px;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
 /*---------------------------------------------------*/
 /* Logo del navbar */
 .navbar-logo img {
-  height: 38px; 
+  height: 38px;
   width: auto;
   object-fit: cover;
 }
@@ -142,7 +169,7 @@ footer a:hover {
 }
 
 .navbar-brand {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 /* Estilo para el navbar */
@@ -152,7 +179,7 @@ footer a:hover {
 }
 
 .navbar {
-  background: rgba(0, 0, 0, 0.7); 
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /* Imagen de Fondo del sitio*/
@@ -171,11 +198,6 @@ body {
   border-radius: 50px;
   padding: 10px 15px;
   font-size: 20px;
-}
-
-/* Agregar padding-top a la clase rrss-quien-soy */
-.rrss-quien-soy {
-  padding-top: 20px;
 }
 
 /*Texto de hero section*/
@@ -198,7 +220,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-} 
+}
 
 .hero {
   width: 100%;
@@ -276,6 +298,14 @@ body {
 #SpotifyIframe {
   filter: drop-shadow(10px 20px 30px rgba(0, 0, 0, 0.7));
   padding-top: 25%;
+  height: 100%;
+}
+
+#SpotifyIframe iframe {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 #titulo_quiensoy {
@@ -285,12 +315,12 @@ body {
 
 /* Estilo para las imágenes en la sección "Quién Soy" */
 .quienes-soy img {
-  max-width: 75%; 
-  height: auto; 
-  display: block; 
-  margin-left: auto; 
-  margin-right: auto; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 /* Estilos para el navbar hamburguesa*/
 /* Estilos para el navbar siempre colapsado */
@@ -302,7 +332,7 @@ body {
 }
 
 #navbarNav .nav-item .nav-link {
-  text-align: center; 
+  text-align: center;
   padding: 0.5rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -362,8 +392,6 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
-
 /* Auto Cuidado Equipos*/
 
 #seccion-autocuidado {
@@ -376,7 +404,7 @@ body {
 
 #seccion-autocuidado .contenedor-principal:hover {
   transform: translateY(-5px);
-  box-shadow: 15px 25px 40px rgba(0,0,0,0.7) !important;
+  box-shadow: 15px 25px 40px rgba(0, 0, 0, 0.7) !important;
 }
 
 #seccion-autocuidado .imagen-seccion {
@@ -390,39 +418,51 @@ body {
 /* Ajustes de responsividad adicionales */
 @media (max-width: 768px) {
   #seccion-autocuidado .contenedor-principal {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 
-h1{
-  font-family: 'Diphylleia', sans-serif; 
+#seccion-autocuidado p {
+  text-align: justify;
+}
+
+.parrafo2-autocuidado p {
+  line-height: 1.6;
+}
+
+.parrafo2-autocuidado {
+  margin-top: 16px;
+}
+
+h1 {
+  font-family: "Diphylleia", sans-serif;
   font-weight: bold;
-  font-size: 25px;   
+  font-size: 25px;
 }
 
 h5 {
-    font-family: 'Diphylleia', sans-serif; 
-    font-weight: bold;
-    font-size: 25px; 
+  font-family: "Diphylleia", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 h2 {
-    font-family: 'Diphylleia', sans-serif; 
-    font-weight: bold;
-    font-size: 35px; 
+  font-family: "Diphylleia", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
 }
-span{
-  color: #000000
+span {
+  color: #000000;
 }
 .form-background {
   background: rgba(255, 255, 255, 0.8);
-  border-radius: 15px; 
-  padding: 20px; 
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); 
-  margin-bottom: 20px; 
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
 }
 
-.glass-container{
+.glass-container {
   width: 100%;
   max-width: 640px;
   height: auto;
@@ -433,27 +473,75 @@ span{
   gap: 20px;
   border-radius: 12px;
   backdrop-filter: blur(10px);
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
-  border: 10px rgba(255,255,255,0.4) solid;
-  border-bottom: 10px rgba(40,40,40,0.35) solid;
-  border-right: 10px rgba(40,40,40,0.35) solid;  
+  border: 10px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 10px rgba(40, 40, 40, 0.35) solid;
+  border-right: 10px rgba(40, 40, 40, 0.35) solid;
+  margin: 0 auto;
 }
 
 .glass-container ul {
-  font-family: 'Diphylleia', sans-serif; 
-  font-size: 1.4em; 
-  line-height: 2.0; 
+  font-family: "Diphylleia", sans-serif;
+  font-size: 1.4em;
+  line-height: 2;
 }
-
 
 @media (max-width: 768px) {
   .glass-container {
-    flex-direction: column; 
-    padding: 10px; 
+    flex-direction: column;
+    padding: 10px;
   }
 
   .glass-container ul {
-    font-size: 1.2em; 
+    font-size: 1.2em;
   }
+}
+
+/*OTROS SERVICIOS*/
+#Texto_Otros_Servicios {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  filter: drop-shadow(10px 20px 30px rgba(202, 188, 188, 0.3));
+  line-height: 2;
+}
+
+#Texto_Otros_Servicios p {
+  text-align: justify;
+  text-align-last: left;
+  word-spacing: -0.3ch;
+  font-size: larger;
+}
+
+.otros-servicios iframe {
+  border-radius: 12px;
+  width: 100%;
+  height: 415px;
+}
+
+/*CONTACTO*/
+
+.logo-contacto img {
+  opacity: 0.5;
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+.label-inputs input {
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+}
+
+/*WHATSAPP FLOTANTE*/
+#whatsapp-btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#whatsapp-btn.active {
+  background-color: #ffffff !important;
+  color: #25d366 !important;
+  border: 1px solid #25d366 !important;
+  opacity: 70%;
 }
